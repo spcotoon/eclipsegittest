@@ -144,5 +144,10 @@ public class BoardController {
 		return "board/boardlist2";
 	}
 	
+
+	@RequestMapping(value="/boardListTest.do")
+	public String boardListTest(HttpServletRequest request,ModelMap model) {
+		return "test";
+	}
 	
 }
