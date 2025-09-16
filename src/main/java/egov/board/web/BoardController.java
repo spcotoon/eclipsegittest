@@ -147,7 +147,7 @@ public class BoardController {
 
 	@RequestMapping(value="/boardListTest.do")
 	public String boardListTest(HttpServletRequest request,ModelMap model) {
-		return "test";
+		return "test입니다.";
 	}
 	
 }
