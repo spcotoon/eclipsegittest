@@ -115,7 +115,7 @@ public class BoardController {
 			list=boardService.showBoardList(request);
 		} catch (Exception e) {
 
-			//로그기록,상태코드반환 또는 에러페이지 전달
+			//로그기록,상태코드반환 또는 에러페이지 전달.
 			String error = e.getMessage();
 			if(error.equals("로그인안했음"))
 			{
