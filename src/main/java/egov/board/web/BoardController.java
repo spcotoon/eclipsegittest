@@ -135,7 +135,7 @@ public class BoardController {
 			}
 			
 			return "error/error";
-		}
+		}//33333
 		
 		model.addAllAttributes(list.get(list.size()-1));
 		list.remove(list.size()-1);
