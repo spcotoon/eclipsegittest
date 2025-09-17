@@ -127,7 +127,7 @@ public class BoardController {
 			}
 			else if(error.equals("페이지찾을수없음"))
 			{
-				
+				//2번변경
 			}
 			else
 			{
